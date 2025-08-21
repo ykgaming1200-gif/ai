@@ -1,4 +1,5 @@
-﻿{
+cat > package.json <<EOF
+{
   "name": "appbuilder-ai-frontend",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "vite": "^5.0.0",
-    "@vitejs/plugin-react": "^4.2.0"
+    "vite": "^5.0.0"
   }
 }
+EOF
